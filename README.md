@@ -27,7 +27,7 @@ Lines 169 - 305 - Data processing, train/test split, Logistic regression model, 
 
 Lines 306 - 463 - XGBoost model, Confusion matrix, ROC_AUC curve for both LR and XGBoost models in one plot, Prediction-Recall curve for LR and XGBoost models in one plot, feature importance plot for XGBoost.
 
-Lines 464 - 506 (Appendix code - takes a long time to run) - GridSearch, recursive feature elimination.
+Lines 464 - 869 (Appendix code - takes a long time to run) - GridSearch with crossvalidation for LR, recursive feature elimination, RandomizedSearch with crossvalidation for XGBoost, sensitivity analysis with top 20 and bottom 20 percent of data as an even split.
 
 R code - projectinr.R
 
